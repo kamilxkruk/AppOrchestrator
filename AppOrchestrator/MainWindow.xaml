@@ -76,8 +76,8 @@
         <TextBlock Text="WPF Client"/>
         <TextBlock Text="Web Client" Grid.Column="1"/>
         <TextBlock Text=".NET Core API" Grid.Column="2"/>
-        <ToggleButton Grid.Row="1"/>
-        <ToggleButton Grid.Row="1" Grid.Column="1"/>
-        <ToggleButton Grid.Row="1" Grid.Column="2"/>
+        <ToggleButton Grid.Row="1" Click="Wpf_ToggleClick"/>
+        <ToggleButton Grid.Row="1" Grid.Column="1" Click="WebUI_ToggleClick"/>
+        <ToggleButton Grid.Row="1" Grid.Column="2" Click="Api_ToggleClick"/>
     </Grid>
 </Window>
